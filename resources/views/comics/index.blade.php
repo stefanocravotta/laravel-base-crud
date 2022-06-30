@@ -2,6 +2,12 @@
 
 @section('content')
     <div class="container py-5">
+        @if (session('delete_comic'))
+            <div class="alert alert-danger d-flex justify-content-between" role="alert">
+                <p>{{session('delete_comic')}}</p>
+                <a class="btn btn-danger" href="{{ route('comics.index') }}">X</a>
+            </div>
+        @endif
         <table class="table">
             <thead>
               <tr>
