@@ -18,8 +18,8 @@
                 <td>{{ $comic->title }}</td>
                 <td>{{ $comic->type }}</td>
                 <td>
-                    <a class="btn btn-success" href="{{ route('comics.show', $comic->id ) }}" role="button">Show</a>
-                    <a class="btn btn-dark" href="#" role="button">Edit</a>
+                    <a class="btn btn-success" href="{{ route('comics.show', $comic ) }}" role="button">Show</a>
+                    <a class="btn btn-primary" href="#" role="button">Edit</a>
                 </td>
               </tr>
               @endforeach

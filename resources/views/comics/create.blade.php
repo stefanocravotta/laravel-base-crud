@@ -10,25 +10,22 @@
                     {{-- IMPORTANTE --}}
 
                     <div class="mb-3">
-                      <label for="id" class="form-label">ID</label>
-                      <input type="text" name="id" class="form-control" id="id" placeholder="Insersci l 'ID">
-                    </div>
-                    <div class="mb-3">
                       <label for="title" class="form-label">Title</label>
-                      <input type="text" name="title" class="form-control" id="id" placeholder="Insersci il titolo">
+                      <input type="text" name="title" class="form-control" id="id" placeholder="Insersci il titolo" required>
                     </div>
                     <div class="mb-3">
                       <label for="type" class="form-label">Type</label>
-                      <input type="type" name="image" class="form-control" id="id" placeholder="Insersci la tipologia">
+                      <input type="type" name="type" class="form-control" id="type" placeholder="Insersci la tipologia" required>
                     </div>
                     <div class="mb-3">
                       <label for="image" class="form-label">Image</label>
-                      <input type="text" name="image" class="form-control" id="id" placeholder="Insersci l'Url dell'immagine">
+                      <input type="text" name="image" class="form-control" id="image" placeholder="Insersci l'Url dell'immagine" required>
                     </div>
                     <button type="submit" class="btn btn-danger">Invia</button>
                   </form>
+
             </div>
         </div>
-        
+
     </div>
 @endsection
