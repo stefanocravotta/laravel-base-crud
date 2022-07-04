@@ -8,6 +8,6 @@
             <div class="col-6"><img class="my-3 img-fluid" src="{{ $comic->image }}" alt="{{ $comic->title }}"></div>
             <div class="col-6"><h2 class="my-3">Title : {{ $comic->title }}</h2></div>
         </div>
-        <a class="btn btn-secondary" href="{{ route('comics.index') }}" role="button"><< Back</a>
+        <a class="btn btn-secondary mt-5" href="{{ route('comics.index') }}" role="button"><< Back</a>
     </div>
 @endsection

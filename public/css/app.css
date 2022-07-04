@@ -12149,3 +12149,7 @@ fieldset:disabled .btn {
   }
 }
 
+.input-error {
+  color: red;
+}
+
